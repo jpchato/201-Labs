@@ -5,6 +5,10 @@ header {
 
 }
 
+body {
+  background-color: olivedrab;
+}
+
 #p1 {
   text-align: center;
   width: 45%;
@@ -31,4 +35,21 @@ img {
 
 article {
   align-items: center;
+}
+
+figcaption {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-family: sans-serif;
+  background-color: lightblue;
+  color: darkslategrey;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
