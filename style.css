@@ -4,3 +4,31 @@ header {
   text-align: center;
 
 }
+
+#p1 {
+  text-align: center;
+  width: 45%;
+  float: left;
+  font-size: 24px;
+  background-color: black;
+  color: yellow;
+}
+
+#p2 {
+  text-align: center;
+  width: 45%;
+  float: right;
+  font-size: 24px;
+  background-color: forestgreen;
+  color: whitesmoke;
+}
+
+img {
+  width: 35%;
+  height: 35%;
+
+}
+
+article {
+  align-items: center;
+}
