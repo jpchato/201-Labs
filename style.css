@@ -2,6 +2,7 @@ header {
   background-color: greenyellow;
   color: blue;
   text-align: center;
+  border-radius: 25px;
 
 }
 
@@ -11,20 +12,29 @@ body {
 
 #p1 {
   text-align: center;
+  text-align: justify;
   width: 45%;
   float: left;
   font-size: 24px;
   background-color: black;
   color: yellow;
+  border-radius: 10px;
 }
 
 #p2 {
   text-align: center;
+  text-align: justify;
   width: 45%;
   float: right;
   font-size: 24px;
   background-color: forestgreen;
   color: whitesmoke;
+  border-radius: 10px;
+}
+
+#p3 { 
+  width: 20%;
+  margin: bottom 20px;
 }
 
 img {
@@ -45,6 +55,8 @@ figcaption {
   font-family: sans-serif;
   background-color: lightblue;
   color: darkslategrey;
+  text-align: center;
+  border-radius: 1000px;
 }
 
 .center {
@@ -52,4 +64,32 @@ figcaption {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+article {
+  display: inline;
+}
+
+li {
+  display: inline;
+  text-align: right;
+}
+
+nav {
+  background-color: red;
+  text-align: left;
+  border-radius: 50px;
+  width: 15%;
+  margin-left: 550px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  border-radius: 100px;
+}
+
+a {
+  color: white;
 }
