@@ -93,12 +93,15 @@ for (var i = 4; i > 0; i--){
   var answer = '5';
   if (question < '5'){
     alert('Too low');
+    // console.log('Too low');
   }
   if (question > '5'){
     alert('Too high');
+    // console.log('Too high');
   }
   if (question == answer){
     alert('You got it right');
+    // console.log('You got it right');
     myArr.push(1);
     break;
   }
@@ -112,11 +115,16 @@ for (var i=6; i>0; i--){
   var nostAnswer = prompt('What is one of my most nostalgic games?');
   if (nostAnswer==nostList[0] || nostAnswer==nostList[1] || nostAnswer==nostList[2] || nostAnswer==nostList[3] || nostAnswer==nostList[4] || nostAnswer==nostList[4] || nostAnswer==nostList[5] || nostAnswer==nostList[5] ||nostAnswer==nostList[6]){
     alert('I love that game!');
+    // console.log('I love that game!');
     myArr.push(1);
     break;
   }
 }
 alert('Games that inspire nostalgia: ' + nostList.toString())
 alert('You answered ' + myArr.length + ' correctly')
+// console.log('Games that inspire nostalgia: ' + nostList.toString());
+// console.log('You answered ' + myArr.length + ' correctly');
+
 
 alert('Goodbye ' + visitor + '. Think of me if you need to hire a software developer')
+// console.log('Goodbye ' + visitor + '. Think of me if you need to hire a software developer')
