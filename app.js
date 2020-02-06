@@ -2,19 +2,20 @@
 
 // Lab 2 JS
 
-var myArr = []
-
 var visitor = prompt('What is your name?');
+
 alert('Welcome ' + visitor + '. I hope you enjoy my webpage.');
 
 var name = prompt('Is my last name Pena?');
+
 var name_ = name.toLowerCase();
+
 function questions () {
   
   if (name_ === 'yes'){
   // console.log(name_ + ', my last name is pena ');
   alert('Yes, my last name is Pena'); 
-  //myArr.push(1);
+  myArr.push(1);
 } else if (name_ === 'no'){
   // console.log(' Incorrect, Pena is my last name');
   alert('Incorrect, my last name is Pena')
@@ -33,7 +34,7 @@ if (school_ === 'yes'){
 else if (school_ === 'no'){
   // console.log('Correct, I graduated from The Evergreen State College');
   alert('Correct, I graduated from The Evergreen State College');
-  //myArr.push(1);
+  myArr.push(1);
 }
 else {
   // console.log('yes or no answers only');
@@ -45,7 +46,7 @@ var service_ = service.toLowerCase();
 if (service_ === 'yes'){
   // console.log('Yes, I served in the Army');
   alert('Yes, I served in the Army');
-  //myArr.push(1);
+  myArr.push(1);
 }
 else if (service_ === 'no'){
   // console.log('Incorrect, I served 4 years in the Army');
@@ -65,7 +66,7 @@ if (work_ === 'yes'){
 else if (work === 'no'){
   // console.log('Correct, I worked as a utility forester');
   alert('Correct, I worked as a utility forester');
-  //myArr.push(1);
+  myArr.push(1);
 }
 else {
     // console.log('yes or no answers only');
@@ -81,7 +82,7 @@ if (goal_ === 'yes'){
 else if (goal_ === 'no'){
   // console.log('Correct, I\'m here to learn how to code so I can build a better life');
   alert('Correct, I\'m here to learn how to code and so I can build a better life');
-  //myArr.push(1);
+  myArr.push(1);
 }
 else{
   // console.log('yes or no answers only');
@@ -105,7 +106,7 @@ function guess () {for (var i = 4; i > 0; i--){
   if (question == answer){
     alert('You got it right');
     // console.log('You got it right');
-    //myArr.push(1);
+    myArr.push(1);
     break;
   }
 }
@@ -121,14 +122,15 @@ function games () {for (var i=6; i>0; i--){
   if (nostAnswer==nostList[0] || nostAnswer==nostList[1] || nostAnswer==nostList[2] || nostAnswer==nostList[3] || nostAnswer==nostList[4] || nostAnswer==nostList[4] || nostAnswer==nostList[5] || nostAnswer==nostList[5] ||nostAnswer==nostList[6]){
     alert('I love that game!');
     // console.log('I love that game!');
-    //myArr.push(1);
+    myArr.push(1);
     break;
   }
 }
 }
 games ();
+
 alert('Games that inspire nostalgia: ' + nostList.toString())
-//alert('You answered ' + myArr.length + ' correctly')
+alert('You answered ' + myArr.length + ' correctly')
 // console.log('Games that inspire nostalgia: ' + nostList.toString());
 // console.log('You answered ' + myArr.length + ' correctly');
 
