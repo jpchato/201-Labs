@@ -11,9 +11,8 @@ body {
 }
 
 #p1 {
-  text-align: center;
+  text-align: left;
   text-align: justify;
-  width: 45%;
   float: left;
   font-size: 24px;
   background-color: black;
@@ -24,7 +23,6 @@ body {
 #p2 {
   text-align: center;
   text-align: justify;
-  width: 45%;
   float: right;
   font-size: 24px;
   background-color: forestgreen;
@@ -32,9 +30,46 @@ body {
   border-radius: 10px;
 }
 
-#p3 { 
-  width: 20%;
-  margin: bottom 20px;
+#ul1{
+  text-align: left;
+  text-align: justify;
+  float: left;
+  font-size: 24px;
+  background-color: black;
+  color: yellow;
+  border-radius: 10px;
+}
+
+  
+
+#ul2{
+  text-align: center;
+  text-align: justify;
+  float: right;
+  font-size: 24px;
+  background-color: forestgreen;
+  color: whitesmoke;
+  border-radius: 10px;
+
+}
+
+h3 {
+  background-color: darkturquoise;
+  color: purple;
+  text-align: center;
+  text-align: justify;
+  border-radius: 5px;
+  width: 15%;
+  margin-left: 550px;
+}
+
+#topTen { 
+  background-color: purple;
+  color: olivedrab;
+  text-align: center;
+  text-align: justify;
+  margin-left: 565px;
+  width: 10%;
 }
 
 img {
@@ -70,10 +105,11 @@ article {
   display: inline;
 }
 
-li {
+/* li {
   display: inline;
   text-align: right;
-}
+} */
+
 
 nav {
   background-color: red;
@@ -93,3 +129,4 @@ a:link {
 a {
   color: white;
 }
+
