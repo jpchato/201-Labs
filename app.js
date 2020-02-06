@@ -116,7 +116,7 @@ for (var i=6; i>0; i--){
     break;
   }
 }
-alert('Games that inspire nostalgia: Final Fantasy 8, Tekken 5, Final Fantasy 14, Pokemon RBY, Final Fantasy 7, Marvel vs Capcom 2, Street Fighter 4 ')
+alert('Games that inspire nostalgia: ' + nostList.toString())
 alert('You answered ' + myArr.length + ' correctly')
 
 alert('Goodbye ' + visitor + '. Think of me if you need to hire a software developer')
