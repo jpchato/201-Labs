@@ -3,6 +3,8 @@ header {
   color: blue;
   text-align: center;
   border-radius: 25px;
+  margin-left: 500px;
+  margin-right: 500px;
 
 }
 
@@ -13,21 +15,21 @@ body {
 #p1 {
   text-align: left;
   text-align: justify;
-  float: left;
   font-size: 24px;
   background-color: black;
   color: yellow;
   border-radius: 10px;
+  width: 50vw;
 }
 
 #p2 {
   text-align: center;
   text-align: justify;
-  float: right;
   font-size: 24px;
   background-color: forestgreen;
   color: whitesmoke;
   border-radius: 10px;
+  width: 50vw;
 }
 
 #ul1{
@@ -68,8 +70,10 @@ h3 {
   color: olivedrab;
   text-align: center;
   text-align: justify;
-  margin-left: 565px;
-  width: 10%;
+  margin-left: 535px;
+  width: 200px;
+  font-size: 20px;
+ 
 }
 
 img {
@@ -105,18 +109,12 @@ article {
   display: inline;
 }
 
-/* li {
-  display: inline;
-  text-align: right;
-} */
-
-
 nav {
   background-color: red;
   text-align: left;
   border-radius: 50px;
   width: 15%;
-  margin-left: 550px;
+  margin-left: 575px;
 }
 
 a:link {
